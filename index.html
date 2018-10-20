@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Image gallery</title>
+</head>
+<body>
+    	<!-- menubar -->
+<div class="nav">
+<div class="nav-header">
+    <div class="nav-title">
+    MY-Gallery
+    </div>
+</div>
+<div class="nav-btn">
+    <label for="nav-check">
+    <span></span>
+    <span></span>
+    <span></span>
+    </label>
+</div>
+<input type="checkbox" id="nav-check">
+<div class="nav-links">
+    <a href="index.html" target="_blank">Home</a>
+    <a href="#categories" target="_blank">Categories</a>
+    <a href="#about" target="_blank">About</a>
+    <a href="#" target="_blank">Contact</a>
+    
+</div>
+</div>
+
+<!-- slider -->
+<div id="top" class="slider-container">
+        <div class="slider-control left inactive"></div>
+        <div class="slider-control right"></div>
+        <ul class="slider-pagi"></ul>
+        <div class="slider">
+            <div class="slide slide-0 active">
+                <div class="slide__bg"></div>
+            </div>
+            <div class="slide slide-1 ">
+                <div class="slide__bg"></div>
+            </div>
+            <div class="slide slide-2">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="slide__bg"></div>
+                <div class="slide__content">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="categories" class='container'>
+    <h1>All <span class="heighlight">Categories</span> .</h1>
+    <div class='gallery--wrap'>
+      <div class='image image--1'>
+        <img src="images/categories/aerial-android-wallpaper-architectural-design-373912.jpg"/>
+        <h2><a class="cat" href="cities.html">Cityscape</a></h2>
+      </div>
+      <div class='image image--2'>
+        <img src='images/categories/cascade-clouds-cool-wallpaper-210186.jpg'/>
+        <h2><a class="cat" href="landscape.html">Landscape</a></h2>
+      </div>
+      <div class='image image--3'>
+        <img src='images/categories/acropolis-ancient-archaeology-951531.jpg' />
+        <h2><a class="cat" href="monuments.html">Monuments</a></h2>
+      </div>
+      <div class='image image--3'>
+        <img src='images/categories/athletes-athletics-black-and-white-34514.jpg' />
+        <h2><a class="cat" href="sports.html">Sports</a></h2>
+      </div>
+      <div class='image image--3'>
+        <img src='images/categories/automobile-bmw-car-707046.jpg' />
+        <h2><a class="cat" href="superCars.html">Super cars</a></h2>
+      </div>
+      <div class='image image--3'>
+        <img src='images/categories/animal-aquatic-corals-847393.jpg' />
+        <h2><a class="cat" href="underWater.html">Under water</a></h2>
+      </div>
+      <div class='image image--3'>
+        <img src='images/categories/animals-avan-beautiful-37833.jpg' />
+        <h2><a class="cat" href="wildlife.html">Wildlife</a></h2>
+      </div>
+    </div>
+</div>
+<div id="about" class="about">
+    <h1><span class="heighlight">About </span>me .</h1>
+    <div class="mypic"><i class="fas fa-user-alt"></i></div>
+    <h3><span class="heighlight">Prachi Bhandari</span></h3>
+    <h4>WildLife Photographer</h4>
+    <div class="social">
+            <a class="f" href="#"><i class="fab fa-facebook"></i></a>
+            <a  class="t" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="i" href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</div>
+
+<footer>
+    <div class="logo">
+
+        <a href="index.html"><h3>My-Gallery</h3></a>
+    </div>
+    <div class="link">
+        <a href="index.html">-Home-</a>
+        <a href="#categories">-Categories-</a>
+        <a href="#about">-About-</a>
+        <a href="#">-Contact-</a>
+    </div>
+    <p>My-Gallery &copy; 2018. Designed by <span class="heighlight">Prachi Bhandari</span></p>
+</footer>
+
+
+
+    
+
+<script src="jquery/jquery-3.3.1.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
